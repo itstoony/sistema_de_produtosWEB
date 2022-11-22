@@ -5,14 +5,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cadastro</title>
 </head>
 <body>
 <form action="${linkEntradaServlet}" method="POST">
-  Login: <input type="text" name="login"> <br>
-  Senha: <input type="password" name="senha"> <br>
+    Login: <input type="text" name="login"> <br>
+    Senha: <input type="password" name="senha"> <br>
 
-    <input type="hidden" name="acao" value="Login" />
+    <input type="hidden" name="acao" value="Cadastro" />
 
     <input type="submit">
 </form>
